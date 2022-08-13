@@ -1,0 +1,26 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: 'Cormorant SC', serif;
+      }
+html {
+    height: 100%;
+}
+body {
+    background: rgb(95,108,89);
+background: linear-gradient(118deg, rgba(95,108,89,0.506061799719888) 1%, rgba(221,211,163,0.506061799719888) 50%, rgba(231,146,116,0.5340730042016807) 100%);
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+h1, h3{
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    
+}
+h1{
+    margin:30px;
+    font-weight: 900;
+}

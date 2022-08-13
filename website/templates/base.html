@@ -4,6 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta http-equiv="X-UA-Compatibile" content="ie=edge">
+    <script src="https://kit.fontawesome.com/4d1037bb83.js" crossorigin="anonymous"></script>
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
@@ -24,10 +25,13 @@
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav ml-auto">
           {% if user.is_authenticated %}
-          <a class="nav-item nav-link active" id="home" href="/">Home</a>
+          <i class="fa-regular fa-house-chimney-heart"></i>
+          <a class="nav-item nav-link active" id="home" href="/">Matching Page</a>
+          <a class="nav-item nav-link active" id="account" href="/account">Account</a>
           <a class="nav-item nav-link active" id="favourites" href="/favourites">Favourites</a>
           <a class="nav-item nav-link active" id="logout" href="/logout">Logout</a>
           {% else %}
+          <i class="fa-regular fa-house-chimney-heart"></i>
           <a class="nav-item nav-link active" id="login" href="/login">Login</a>
           <a class="nav-item nav-link active" id="signup" href="/sign-up">Sign Up</a>
           {% endif %}
@@ -35,6 +39,7 @@
       </div>
     </nav>
   </header>
+
     {% with messages = get_flashed_messages(with_categories=true) %} {% if
     messages %} {% for category, message in messages %} {% if category ==
     'error' %}

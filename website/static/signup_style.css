@@ -13,3 +13,28 @@ body{
     position: relative;
 
 }
+.signup{
+  max-width: 500px;
+  margin: auto;
+  margin-bottom: 200px;
+  color:white;
+}
+nav{
+  font-size: 20px;
+  font-weight: 900;
+  margin:20px;
+  padding: 30px 0 10px;
+}
+.btn-primary{
+  padding: 10px 30px;
+  background-color: #b0bdcf;
+  border-color: #b0bdcf;
+  color: #000;
+  font-weight: 900;
+}
+.btn-primary:hover{
+  background-color: #b0bdcf;
+  border-color: #b0bdcf;
+  color: #fff;
+  font-weight: 900;
+}

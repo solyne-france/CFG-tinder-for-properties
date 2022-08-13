@@ -23,23 +23,34 @@ nav{
   padding: 10px 0 10px;
 }
 #home{
-padding: 15px;
-color:black;
+  padding: 15px;
+  color:white;
+  font-weight: bolder;
 }
 #favourites{
   padding:15px;
-  color:black;
+  color:white;
+  font-weight: bolder;
 }
 #login{
   padding:15px;
-  color:black;
+  color:white;
+  font-weight: bolder;
 }
 #logout{
   padding:15px;
-  color:black;
+  color:white;
+  font-weight: bolder;
 }
 #signup{
   padding:15px;
-  color:black;
+  color:white;
+  font-weight: bolder;
 }
+#account{
+  padding:15px;
+  color:white;
+  font-weight: bolder;
+}
+
 

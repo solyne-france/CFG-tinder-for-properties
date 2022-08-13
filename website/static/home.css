@@ -1,0 +1,14 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}html {
+    height: 100%;
+}
+body {
+    background: rgb(95,108,89);
+background: linear-gradient(118deg, rgba(95,108,89,0.506061799719888) 1%, rgba(221,211,163,0.506061799719888) 50%, rgba(231,146,116,0.5340730042016807) 100%);
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}

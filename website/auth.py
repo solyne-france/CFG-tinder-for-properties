@@ -69,3 +69,7 @@ def sign_up():
 @auth.route('/favourites')
 def favourites():
     return render_template("favourites.html", user=current_user)
+
+@auth.route('/account')
+def account():
+    return render_template("account.html", user=current_user)

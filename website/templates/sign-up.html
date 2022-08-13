@@ -2,8 +2,9 @@
     content %}
     <link rel="stylesheet" href="{{ url_for('static', filename='signup_style.css') }}">
 
+<div class="signup">
     <form method="POST">
-      <h3 align="center">Sign Up</h3>
+      <h2 align="center">Sign Up</h2>
       <div class="form-group">
         <label for="email">Email Address</label>
         <input
@@ -45,6 +46,9 @@
         />
       </div>
       <br />
+      <div class="d-flex justify-content-center"">
       <button type="submit" class="btn btn-primary">Submit</button>
+    </div>
     </form>
+  </div>
     {% endblock %}
