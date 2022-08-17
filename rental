@@ -1,4 +1,4 @@
-create table sample1 (
+create table sample (
 	id INT,
 	username VARCHAR(50),
 	email VARCHAR(50),
